@@ -1,4 +1,4 @@
 # C-HackerX47
 This is my first Github repository.
 <br>
-Author - Omkar
+Author - Omkar Singh
