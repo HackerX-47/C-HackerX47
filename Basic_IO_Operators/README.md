@@ -59,67 +59,67 @@ It helps in understanding **user input handling**, **conditional statements**, *
 ## Usage and Sample Output
 
 1. ➕ Addition
-? 1
-1st Number = 12
-2nd Number = 3
-You have opted for addition of the two numbers.
-12.00 + 3.00 = 15.00
+<br>? 1
+<br>?1st Number = 12
+<br>?2nd Number = 3
+<br>?You have opted for addition of the two numbers.
+<br>?12.00 + 3.00 = 15.00
 
 2. ➖ Subtraction
-? 2
-1st Number = 12
-2nd Number = 3
-You have opted for subtraction of the two numbers.
-12.00 - 3.00 = 9.00
+<br>?? 2
+<br>?1st Number = 12
+<br>?2nd Number = 3
+<br>?You have opted for subtraction of the two numbers.
+<br>?12.00 - 3.00 = 9.00
 
 3. ✖️ Multiplication
-? 3
-1st Number = 12.5
-2nd Number = 3.2
-You have opted for multiplication of the two numbers.
-12.50 * 3.20 = 40.00
+<br>?? 3
+<br>?1st Number = 12.5
+<br>?2nd Number = 3.2
+<br>?You have opted for multiplication of the two numbers.
+<br>?12.50 * 3.20 = 40.00
 
 4. ➗ Division
-? 4
-1st Number = 12.5
-2nd Number = 2.5
-You have opted for division of the two numbers.
-12.50 / 2.50 = 5.00
+<br>?? 4
+<br>?1st Number = 12.5
+<br>?2nd Number = 2.5
+<br>?You have opted for division of the two numbers.
+<br>?12.50 / 2.50 = 5.00
 
 By zero:
-? 4
-1st Number = 12
-2nd Number = 0
-Wrong Input
-Use a non-zero number for the place of divisor
+<br>?? 4
+<br>?1st Number = 12
+<br>?2nd Number = 0
+<br>?Wrong Input
+<br>?Use a non-zero number for the place of divisor
 
 5. 🧩 Modulo(Remainder)
-? 5
-1st Number = 12
-2nd Number = 3
-You have opted for remainder of the two numbers.
-12 % 3 = 0
+<br>?? 5
+<br>?1st Number = 12
+<br>?2nd Number = 3
+<br>?You have opted for remainder of the two numbers.
+<br>?12 % 3 = 0
 
 With non integer inputs:
-? 5
-1st Number = 12.5
-2nd Number = 3.2
-Wrong input.
-Use integral inputs for use of modulus operator.
+<br>?? 5
+<br>?1st Number = 12.5
+<br>?2nd Number = 3.2
+<br>?Wrong input.
+<br>?Use integral inputs for use of modulus operator.
 
 By zero:
-? 5
-1st Number = 12
-2nd Number = 0
-Wrong Input for Second number
+<br>?? 5
+<br>?1st Number = 12
+<br>?2nd Number = 0
+<br>?Wrong Input for Second number
 
 6. Program termination
-? 0
-You opted for end of the program.
+<br>?? 0
+<br>?You opted for end of the program.
 
 7. Invalid option choosed:
-? 9
-Wrong Input for option.
+<br>?? 9
+<br>?Wrong Input for option.
 
 Following are the instructions to follow for using the simple calculator.
   1. Input 1 for using addition operator.
