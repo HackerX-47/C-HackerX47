@@ -112,5 +112,5 @@ temperature-converter/
 
  ### 👨‍💻 Author Info
 
-GitHub: HackerX-47
+GitHub: HackerX-47<br>
 Project maintained by HackerX-47 for learning and practice in C programming and Git/GitHub.
