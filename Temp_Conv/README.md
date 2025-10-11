@@ -43,19 +43,23 @@ Clone this repository or download the `.c` file.
 
 ```bash
 git clone https://github.com/HackerX-47/temperature-converter.git
+```
 
 ### Step 2: Compile the Program
 Use any C compiler. Example using GCC:
 ```bash
 gcc temperature_converter.c -o temperature_converter
+```
 
 ### Step 3: Run the Executable
 ```bash
 ./temperature_converter
+```
 
 ## 🧾 Sample Outputs
 
 ### 🧮 Case 1: Celsius → Fahrenheit
+```bash
 ---- Temperature Converter Program ----
 
 Instructions:
@@ -69,8 +73,10 @@ Converted Temperature
 32.00 F
 Unit=E
 Program terminating ...
+```
 
 ### 🌡️ Case 2: Fahrenheit → Celsius
+```bash
 ---- Temperature Converter Program ----
 Unit=F
 Tell me the numerical value of temperature = 98.6
@@ -78,8 +84,10 @@ Converted Temperature
 37.00 C
 Unit=E
 Program terminating ...
+```
 
 ### ⚠️ Case 3: Invalid Input
+```bash
 ---- Temperature Converter Program ----
 Unit=X
 Wrong unit input.
@@ -92,6 +100,7 @@ Instructions:
 
 Unit=E
 Program terminating ...
+```
 
 ## 📂 File Structure
 ```bash
@@ -99,6 +108,7 @@ temperature-converter/
 │
 ├── temperature_converter.c   # Main program file
 └── README.md                 # Documentation file (this file)
+```
 
 👨‍💻 Author Info
 
