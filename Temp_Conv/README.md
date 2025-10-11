@@ -110,8 +110,7 @@ temperature-converter/
 └── README.md                 # Documentation file (this file)
 ```
 
-👨‍💻 Author Info
+ ### 👨‍💻 Author Info
 
 GitHub: HackerX-47
-
 Project maintained by HackerX-47 for learning and practice in C programming and Git/GitHub.
