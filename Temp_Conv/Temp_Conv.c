@@ -1,4 +1,4 @@
-// This program converts the given temperature to Fahrenheit or Celcius as per given input
+// A lightweight C program that converts temperatures between Celsius and Fahrenheit with user-friendly prompts and validation.
 #include<stdio.h>
 
 void instructions(void); // Function prototype for displaying instructions when called
