@@ -47,19 +47,24 @@ This project demonstrates the use of:
 1. **Clone or download** this repository to your system.
    ```bash
    git clone https://github.com/<your-username>/Guess-The-Number-Game.git
+   ```
 2. **Navigate to the project directory** 
   ```bash
   cd Guess-The-Number-Game
+  ```
 3. **Compile** the code using gcc.
   ```bash
   gcc guess_the_number.c -o guess
-4.**Run** the executable.
+  ```
+4. **Run** the executable.
   ```bash
   ./guess
+  ```
 
-Sample Outputs
+## Sample Outputs
 <br>
-🟢 Case 1: User enters 0 (exit)
+ ## 🟢 Case 1: User enters 0 (exit)
+```bash
 ---- Guess The Number ----
 Instructions:
 1. Enter the maximum number (option).
@@ -70,8 +75,10 @@ Instructions:
 Tell me the option=
 ? 0
 Program terminating ...
+```
 
-🟠 Case 2: User enters invalid input (like 1 or negative number)
+## 🟠 Case 2: User enters invalid input (like 1 or negative number)
+```bash
 Tell me the option=
 ? 1
 You made a wrong input.
@@ -81,8 +88,10 @@ Instructions:
 2. Try to guess the number between 1 and that number.
 3. Enter 0 to quit the game.
 4. 1 is not a valid input in this game.
+```
 
-🧠 Case 3: User plays the game (option = 10)
+## 🧠 Case 3: User plays the game (option = 10)
+```bash
 Tell me the option=
 ? 10
 Trial 1:-
@@ -104,8 +113,10 @@ You guessed the number right.
 Tell me the option=
 ? 0
 Program terminating ...
+```
 
-🚫 Case 4: User guesses outside range
+## 🚫 Case 4: User guesses outside range
+```bash
 Tell me the option=
 ? 5
 Trial 1:-
@@ -123,17 +134,21 @@ Guess the number
 ? 4
 You lose.
 Try again.
+```
 
-📂 File Structure
+### 📂 File Structure
+```bash
 Guess-The-Number-Game/
 │
 ├── guess_the_number.c   # Main source code
 ├── README.md            # Project documentation (this file)
+```
 
-👨‍💻 Author Info
-
+### 👨‍💻 Author Info
+```bash
 Author: Omkar
 Education: B.Tech in Mathematics and Computing, NIT Durgapur
 GitHub: https://github.com/HackerX-47
 
 Year: 2025
+```
