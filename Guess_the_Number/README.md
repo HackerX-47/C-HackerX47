@@ -62,7 +62,7 @@ This project demonstrates the use of:
   ```
 
 ## Sample Outputs
-<br>
+
  ## 🟢 Case 1: User enters 0 (exit)
 ```bash
 ---- Guess The Number ----
