@@ -153,10 +153,15 @@ int main ( void ) { // starting of body of main function, void shows the main fu
                                             grade [ i ] = 'F' ; // student gets F grade if he/she fails in the examination
 
                                         }
+
                                     }
+
                                 }
+
                             }
+
                         }
+
                     }
 
                 }   
