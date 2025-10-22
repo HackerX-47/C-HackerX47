@@ -369,6 +369,7 @@ void instructions(void) {
     printf("==============================================\n");
     printf("Press ENTER to continue...\n");
     getchar(); // Wait for user to press Enter
+    getchar();
     printf("==============================================\n\n");
 }
 
