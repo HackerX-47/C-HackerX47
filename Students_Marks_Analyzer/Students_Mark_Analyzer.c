@@ -372,4 +372,3 @@ void instructions(void) {
     getchar();
     printf("==============================================\n\n");
 }
-
