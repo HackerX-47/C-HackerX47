@@ -112,5 +112,9 @@ temperature-converter/
 
  ### 👨‍💻 Author Info
 
-GitHub: HackerX-47<br>
-Project maintained by HackerX-47 for learning and practice in C programming and Git/GitHub.
+Omkar
+**📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
+**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)  
+**📸 Instagram:** [okms.ra](https://www.instagram.com/okms.ra/)  
+**🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
+**💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
