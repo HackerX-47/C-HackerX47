@@ -112,7 +112,7 @@ temperature-converter/
 
  ### 👨‍💻 Author Info
 
-Omkar
+Omkar<br>
 **📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
 **🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)  
 **📸 Instagram:** [okms.ra](https://www.instagram.com/okms.ra/)  
