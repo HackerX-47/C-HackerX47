@@ -145,10 +145,9 @@ Guess-The-Number-Game/
 ```
 
 ### 👨‍💻 Author Info
-```bash
-Author: Omkar
-Education: B.Tech in Mathematics and Computing, NIT Durgapur
-GitHub: https://github.com/HackerX-47
 
-Year: 2025
-```
+**📧 Email:** [omkar121207@gmail.com](mailto:omkar121207@gmail.com)  
+**🐙 GitHub:** [HackerX-47](https://github.com/HackerX-47)  
+**📸 Instagram:** [okms.ra](https://www.instagram.com/okms.ra/)  
+**🔗 LinkedIn:** [Omkar Singh](https://www.linkedin.com/in/omkar-singh-ba2653381/)  
+**💻 LeetCode:** [HackerX_47](https://leetcode.com/u/HackerX_47/)
