@@ -5,6 +5,7 @@ int win(int counter,char board[9],int chosenValues[9]);
 int input(int counter , char board[9], int chosenValues[9]);
 int subset(int array1[3],int array2[5]);
 int main(void){
+    printf("Tell me choice\n? ");
     int choice=0;
     scanf("\n%d",&choice);
     while(choice!=0){
@@ -24,6 +25,7 @@ int main(void){
             displayBoard(board);
             ++counter;
         }
+        printf("Tell me choice\n? ");
         scanf("\n%d",&choice);
     }
 }
@@ -48,7 +50,7 @@ void displayBoard(char board[9]) {
     }
     printf("\n");             // new row after 3 cells
     printf("---------------");
-    printf("\n");
+    printf("\n\n");
 }
 
 
@@ -58,6 +60,7 @@ int input(int counter , char board[9], int chosenValues[9]){
     int position=0;
     int valid = 0;
     while(!valid) {
+        printf((counter%2)?"Player 1 chance\n? ":"Player 2 chance\n? ");
         scanf("%d", &position);
         if(position < 1 || position > 9) {
             printf("Invalid input, try again.\n");
@@ -112,13 +115,13 @@ int win(int counter , char board[9],int chosenValues[9]){
     }
     if(subset(a,counterX)||subset(b,counterX)||subset(c,counterX)||subset(d,counterX)||subset(e,counterX)||subset(f,counterX)||
         subset(g,counterX)||subset(h,counterX)) {
-            printf("X Wins!\n");
+            printf("Player 1 Wins!\n");
             return 1;
     }
     else{
         if(subset(a,counterO)||subset(b,counterO)||subset(c,counterO)||subset(d,counterO)||subset(e,counterO)||subset(f,counterO)||
         subset(g,counterO)||subset(h,counterO)) {
-            printf("O Wins!\n");
+            printf("Player 2 Wins!\n");
             return 1;
         }
         else{
