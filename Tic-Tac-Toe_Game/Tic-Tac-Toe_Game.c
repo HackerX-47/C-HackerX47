@@ -4,53 +4,69 @@ void displayBoard(char board[9]); // display a board
 int win(int counter,char board[9],int chosenValues[9]);
 int input(int counter , char board[9], int chosenValues[9]);
 int subset(int array1[3],int array2[5]);
+void instructions();
 int main(void){
+    printf("--------- Tic-Tac-Toe Game ---------\n\n");
+    instructions();
     printf("Tell me choice\n? ");
     int choice=0;
     scanf("\n%d",&choice);
     while(choice!=0){
-        int counter=1;
-        char board[9];
-        int chosenValues[9];
-        for(int i = 0; i < 9; i++){
-            board[i] = ' ';        // empty cell
-            chosenValues[i] = 0;   // no moves yet
-        }
-        int wIn = win(counter,board,chosenValues);
-        displayBoard(board);
-        while(counter<=9 && wIn==0){ 
-            int position = input(counter, board, chosenValues); // call once
-            chosenValues[counter-1] = position;                // store in chosenValues
-            wIn = win(counter, board, chosenValues);
+        if(choice==1){
+            int counter=1;
+            char board[9];
+            int chosenValues[9];
+            for(int i = 0; i < 9; i++){
+                board[i] = ' ';        // empty cell
+                chosenValues[i] = 0;   // no moves yet
+            }
+            int wIn = win(counter,board,chosenValues);
             displayBoard(board);
-            ++counter;
+            while(counter<=9 && wIn==0){ 
+                int position = input(counter, board, chosenValues); // call once
+                chosenValues[counter-1] = position;                // store in chosenValues
+                wIn = win(counter, board, chosenValues);
+                displayBoard(board);
+                ++counter;
+            }
+            printf("Tell me choice\n? ");
+            scanf("\n%d",&choice);
         }
-        printf("Tell me choice\n? ");
-        scanf("\n%d",&choice);
+        else{
+            printf("Invalid Input for Choice,\nTry Again\n");
+            printf("1. When prompted with \"Tell me choice?\":\n");
+            printf("   - Enter 1 to start/play the game.\n");
+            printf("   - Enter 0 to exit the program.\n");
+            printf("Tell me choice\n? ");
+            scanf("\n%d",&choice);
+        }
     }
 }
 
-void displayBoard(char board[9]) {
-    printf("\n");             // new row after 3 cells
-    printf("---------------");
+void displayBoard(char board[9]) {            
     printf("\n");  
     for(int i = 0; i < 9; ++i) {
           
         if(board[i] == 'X' || board[i] == 'O') {
-            printf("| %c |", board[i]);  // print X or O
+            printf(" %c ", board[i]);  // print X or O
         } else {
-            printf("| %d |", i + 1);     // print cell number
+            printf(" %d ", i + 1);     // print cell number
         }
 
+        if((i+1)%3==0){
+            goto e1;
+        }
+        printf("|"); 
+        
+        e1:
         if ((i + 1) % 3 == 0 && i!=8) {
             printf("\n");             // new row after 3 cells
-            printf("----++---++----");
+            printf("---+---+---");
             printf("\n");  
         }
     }
     printf("\n");             // new row after 3 cells
-    printf("---------------");
-    printf("\n\n");
+    printf("\n");
 }
 
 
@@ -147,4 +163,28 @@ int subset(int array1[3],int array2[5]){
     }else{
         return 0;
     }
+}
+
+void instructions() {
+    printf("------ Instructions ------\n\n");
+    printf("1. Tic-Tac-Toe is a two-player game.\n");
+    printf("2. Player 1 uses 'X' and Player 2 uses 'O'.\n");
+    printf("3. The board has 9 positions numbered 1 to 9 as follows:\n\n");
+    printf("   1 | 2 | 3 \n");
+    printf("  ---+---+---\n");
+    printf("   4 | 5 | 6 \n");
+    printf("  ---+---+---\n");
+    printf("   7 | 8 | 9 \n\n");
+    printf("4. Players take turns to place their symbol (X or O) in an empty cell.\n");
+    printf("5. To place your symbol, type the number corresponding to the position.\n");
+    printf("6. First player to align 3 of their symbols horizontally, vertically, or diagonally wins.\n");
+    printf("7. If all positions are filled and no player has 3 in a row, the game is a draw.\n");
+    printf("8. Invalid or already-taken positions will be rejected. Enter again safely.\n\n");
+    printf("------ How to use this program ------\n");
+    printf("1. When prompted with \"Tell me choice?\":\n");
+    printf("   - Enter 1 to start/play the game.\n");
+    printf("   - Enter 0 to exit the program.\n");
+    printf("2. After the game ends, you will be prompted again for choice.\n");
+    printf("3. Repeat steps above until you choose 0 to exit.\n\n");
+    printf("------ Enjoy the game! ------\n\n");
 }
