@@ -50,7 +50,7 @@ void displayBoard(char board[9]) {
     }
     printf("\n");             // new row after 3 cells
     printf("---------------");
-    printf("\n");
+    printf("\n\n");
 }
 
 
