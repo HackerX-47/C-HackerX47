@@ -6,6 +6,7 @@ int input(int counter , char board[9], int chosenValues[9]);
 int subset(int array1[3],int array2[5]);
 int main(void){
     int choice=0;
+    printf("Enter choice\n? ");
     scanf("\n%d",&choice);
     while(choice!=0){
         int counter=1;
@@ -24,6 +25,7 @@ int main(void){
             displayBoard(board);
             ++counter;
         }
+        printf("Enter choice\n? ");
         scanf("\n%d",&choice);
     }
 }
@@ -58,6 +60,7 @@ int input(int counter , char board[9], int chosenValues[9]){
     int position=0;
     int valid = 0;
     while(!valid) {
+        printf((counter%2)?"Player 1 chance\n? ":"Player 2 chance\n? ");
         scanf("%d", &position);
         if(position < 1 || position > 9) {
             printf("Invalid input, try again.\n");
