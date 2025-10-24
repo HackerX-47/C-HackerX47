@@ -87,6 +87,10 @@ int win(int counter , char board[9],int chosenValues[9]){
     int o=0;
     int counterX[5];
     int counterO[5];
+    for(int i=0;i<5;++i){
+        counterX[i]=0;
+        counterO[i]=0;
+    }
     int a[3]={1,2,3};
     int b[3]={4,5,6};
     int c[3]={7,8,9};
@@ -95,13 +99,13 @@ int win(int counter , char board[9],int chosenValues[9]){
     int f[3]={3,6,9};
     int g[3]={1,5,9};
     int h[3]={3,5,7};
-    int position=0;
-    for(position=0;position<9;++position){
-        if(board[position]=='X'){
+    int position=1;
+    for(position=1;position<=9;++position){
+        if(board[position-1]=='X'){
             counterX[x]=position;
             ++x;
         }
-        if(board[position]=='O'){
+        if(board[position-1]=='O'){
             counterO[o]=position;
             ++o;
         }
